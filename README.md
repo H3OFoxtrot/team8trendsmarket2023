@@ -26,6 +26,8 @@ date	time	time_begin	time_end	logged_food	amount	unit	searched_food	calorie	tota
 
 2/13/2020	18:00:00	2/13/2020 18:00		Berry Smoothie	20	fluid ounce	Strawberry Smoothie	456	85	1.7	83	16	3.3
 
+(***INSERT SCREENSHOT 1***)
+
 This shows the template for how the file should be formatted. If this is made in excel, don't forget to convert to csv before uploading to storage!
 
 More details as to how to collect device data can be found at the following links:
@@ -39,17 +41,51 @@ Once you have all 8 files (ACC, BVP, EDA, IBI, TEMP, HR, FoodLog and Dexcom) for
 
 2. Set up and configure Azure Blob Storage
 
+A basic guide on setting up and using Azure Blob Storage can be found here:
+https://learn.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-portal
+
+Here I will outline some important points.
+
+First: After logging into Azure, we first need to create a new storage account.
+
+(***INSERT SCREENSHOT 2 and 3***)
+
+We do this by clicking on storage accounts, then on the Create button.
+
+Here is where we create the new storage account. There are many different settings here, most of which can be left as the default.
+
+However, it is critically important that you select both the correct subscription and resource group.
+
+This will ensure that the various steps of your pipeline can communicate with the data storage properly.
+
+More details on how to create a storage account can be found here:
+https://learn.microsoft.com/en-us/azure/storage/common/storage-account-create?tabs=azure-portal
+
+(***INSERT SCREENSHOT 3***)
+
+Now that we have our storage account, we need to make a new container. We do this by clicking on storage accounts > your created storage account > containers (on the left bar under Data storage) > + container (right above the container search bar).
+
+This container will be named "patientdata". You could choose to name it something else, but this may lead to compatability issues with the databricks code, and thus require modification within the code. Keep the default access level setting and click create.
+
+Looking inside the new container you shouldn't see anything there. This is where the patient files will be uploaded. When you are ready, click the Upload button, select all of your patient files and click Upload.
+
+It will take some time, but eventually all of the files will upload to the blob storage. A progress notification will appear at the top right of the screen under the notifications (bell) icon if you want to check in later.
+
 
 3. Set up and configure Azure Databricks
 
 
-5. Set up and configure Azure ML Studio
+
+4. Set up and configure Azure ML Studio
 
 
-7. Set up and configure PowerBI
+
+5. Set up and configure PowerBI
+
 
  
-9. How to feed unlabeled data into pipeline
+6. How to feed unlabeled data into pipeline
+
 
 
 Link to flier
