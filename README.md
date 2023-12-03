@@ -7,7 +7,7 @@ Introduction/Executive Summary:
 
 Installation Instructions:
 
-0. Collect your data
+#Collect your data
 Collecting your data will vary depending on what type of device or devices you are utilizing.
 For this process it is strongly recommended that data only be used from a single type of wearable device (both for glucose sensor and for smartwatch).
 For best results we recommend using the Dexcom G6 brand sensor/transmitter and the E4 wrist sensor.
