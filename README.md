@@ -5,6 +5,8 @@ Note: This project repository is created in partial fulfillment of the requireme
 
 Introduction/Executive Summary:
 
+Installation Instructions:
+
 Link to flier
 
 Link to video
