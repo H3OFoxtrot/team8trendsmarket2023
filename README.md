@@ -23,6 +23,7 @@ The food logs, however, will need to be collected manually.
 The food logs will need to be manually entered into a file in the following format: "Food_Log_001.csv". The columns will be in the following format:
 
 date	time	time_begin	time_end	logged_food	amount	unit	searched_food	calorie	total_carb	dietary_fiber	sugar	protein	total_fat
+
 2/13/2020	18:00:00	2/13/2020 18:00		Berry Smoothie	20	fluid ounce	Strawberry Smoothie	456	85	1.7	83	16	3.3
 
 This shows the template for how the file should be formatted. If this is made in excel, don't forget to convert to csv before uploading to storage!
