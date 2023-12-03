@@ -29,7 +29,9 @@ date	time	time_begin	time_end	logged_food	amount	unit	searched_food	calorie	tota
 This shows the template for how the file should be formatted. If this is made in excel, don't forget to convert to csv before uploading to storage!
 
 More details as to how to collect device data can be found at the following links:
+
 https://support.empatica.com/hc/en-us/articles/201608896-Data-export-and-formatting-from-E4-connect-
+
 https://www.dexcom.com/en-us/faqs/can-i-export-raw-data
 
 Once you have all 8 files (ACC, BVP, EDA, IBI, TEMP, HR, FoodLog and Dexcom) for each patient, then you are ready to move on to the next step.
