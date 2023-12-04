@@ -75,36 +75,66 @@ It will take some time, but eventually all of the files will upload to the blob 
 
 
 3. Set up and configure Azure Databricks
-After the sotrage of data in Azure Blob Storage, we make use of Azure Databricks to generate features feeding the model .
+After the sotrage of data in Azure Blob Storage, we make use of Azure Databricks to generate features feeding the model.
+We should setup Databricks account firstly, and here is the link to databricks https://community.cloud.databricks.com/.
+
+After login, we need to build a new cluster and start a notebook.
+
+Following pic shows where to build a new cluster and notebook.
+
+<img width="454" alt="image" src="https://github.com/H3OFoxtrot/team8trendsmarket2023/assets/145874767/b4b5f50e-7c46-4d09-8561-5fcc8cd15655">
+
+
+<img width="1392" alt="image" src="https://github.com/H3OFoxtrot/team8trendsmarket2023/assets/145874767/6e7eea78-0d55-472c-8c84-a1d81dc08454">
+
+
+Then we take following steps to generate the features file.
+
 Step1: input the storage_account_name, storage_account_key, and container to gain the access to Azure Blob Storage
+
 storage_account_name = "tmfall2023pa******"
 storage_account_key = "b9CrNE7Gq8QiiqC6YX9c2F09********"
 container = "pati*******"
 
 Step2: Import the packages we need in the process of feature engineering such as StructType,StructField,Window,and pandas
+
 Specific coding could be found in the features_engineering. file.
 
 Step3: Read data from Azure Blob Storage and start feature engineering.
+
 There are data from 16 patients and each one have 8 category of original features, ACC, EDA, HRV, Food_log, Dexcom, Temp, HR, and IBI. 
+
 Each of the data are distributed, and stored in one file in Azure Blob Storage. The output should be a table with columns PatientId, Gender,
+
 ACC_mean, ACC_max, etc.
+
 The process of building features and merging is: 
+
 read ACC file from Azure Blob Storage for patient1 --> build ACC related features for patient1 --> read ACC file from Azure Blob Storage for patient1 
 --> .........  --> merge the features for patient1
+
 ↓
 ↓
+
 read ACC file from Azure Blob Storage for patient2 --> build ACC related features for patient2 --> read ACC file from Azure Blob Storage for patient2
 --> .........  --> merge the features for patient2
+
 ↓
 ↓
+
 .......
+
 ↓
 ↓
+
 read ACC file from Azure Blob Storage for patient16 --> build ACC related features for patient16 --> read ACC file from Azure Blob Storage for patient16
 --> .........  --> merge the features for patient16
+
 ↓
 ↓
+
 Merge the featurs from patient1 to patient16 into one file, then write it into Azure Blob Storage.
+
 
 All the features engineering coding could be found in feature_engineering.ipynb file, and we woule not introduce here again.
 
