@@ -166,9 +166,13 @@ All the features engineering coding could be found in feature_engineering.ipynb 
    Steps :
    a) Create Azure compute Cluster -
 [![Picture1.png](https://i.postimg.cc/Dwz4dsYm/Picture1.png)](https://postimg.cc/9rvfc42j)
-https://i.postimg.cc/Dwz4dsYm/Picture1.png
    b) Create data asset in Azure to access the feature engineered data from Azure BLOB storage -
+[![Picture2.png](https://i.postimg.cc/8PzLwq71/Picture2.png)](https://postimg.cc/qgWtvDcY)
+
    c) Create ML pipeline -
+
+  [![try1.png](https://i.postimg.cc/k48P01DG/try1.png)](https://postimg.cc/XGVPFgf6)
+  
       i)Input data
       ii)Select columns 
       iii)Normalize data 
@@ -177,7 +181,16 @@ https://i.postimg.cc/Dwz4dsYm/Picture1.png
       vi) Score 
       vii)Evaluate
       viii)Write Python script for any transformation in data.
-   d)Register train model in Azure 
+      Output :
+
+[![try5.png](https://i.postimg.cc/SN9gbn6Z/try5.png)](https://postimg.cc/zVJCnXPW)
+
+   d)Run the experiment in Azure ML studio:
+[![try3.png](https://i.postimg.cc/bNZ9p7pm/try3.png)](https://postimg.cc/LnM1V0qP)
+
+   e)Register train model in Azure :
+
+[![try4.png](https://i.postimg.cc/JzwZmtTh/try4.png)](https://postimg.cc/w7V7QxYK)
 
    
 
