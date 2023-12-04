@@ -95,7 +95,9 @@ Then we take following steps to generate the features file.
 Step1: input the storage_account_name, storage_account_key, and container to gain the access to Azure Blob Storage
 
 storage_account_name = "tmfall2023pa******"
+
 storage_account_key = "b9CrNE7Gq8QiiqC6YX9c2F09********"
+
 container = "pati*******"
 
 Step2: Import the packages we need in the process of feature engineering such as StructType,StructField,Window,and pandas
