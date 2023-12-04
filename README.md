@@ -165,6 +165,7 @@ All the features engineering coding could be found in feature_engineering.ipynb 
 
    Steps :
    a) Create Azure compute Cluster -
+[![Picture1.png](https://i.postimg.cc/Dwz4dsYm/Picture1.png)](https://postimg.cc/9rvfc42j)
 https://i.postimg.cc/Dwz4dsYm/Picture1.png
    b) Create data asset in Azure to access the feature engineered data from Azure BLOB storage -
    c) Create ML pipeline -
