@@ -163,13 +163,28 @@ All the features engineering coding could be found in feature_engineering.ipynb 
 
 5. Set up and configure Azure ML Studio
 
+   Steps :
+   a) Create Azure compute Cluster -
+https://i.postimg.cc/Dwz4dsYm/Picture1.png
+   b) Create data asset in Azure to access the feature engineered data from Azure BLOB storage -
+   c) Create ML pipeline -
+      i)Input data
+      ii)Select columns 
+      iii)Normalize data 
+      iv)Train model 
+      v) Data split
+      vi) Score 
+      vii)Evaluate
+      viii)Write Python script for any transformation in data.
+   d)Register train model in Azure 
 
+   
 
-6. Set up and configure PowerBI
+7. Set up and configure PowerBI
 
 
  
-7. How to feed unlabeled data into pipeline
+8. How to feed unlabeled data into pipeline
 
 
 
