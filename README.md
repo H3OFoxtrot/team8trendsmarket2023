@@ -48,7 +48,9 @@ Here I will outline some important points.
 
 First: After logging into Azure, we first need to create a new storage account.
 
-(***INSERT SCREENSHOT 2 and 3***)
+[![blob-sc1.png](https://i.postimg.cc/bN5T1sG8/blob-sc1.png)](https://postimg.cc/8jhMSkBn)
+
+[![blob-sc2.png](https://i.postimg.cc/mk5Q35gV/blob-sc2.png)](https://postimg.cc/JHjDMKJB)
 
 We do this by clicking on storage accounts, then on the Create button.
 
@@ -61,7 +63,7 @@ This will ensure that the various steps of your pipeline can communicate with th
 More details on how to create a storage account can be found here:
 https://learn.microsoft.com/en-us/azure/storage/common/storage-account-create?tabs=azure-portal
 
-(***INSERT SCREENSHOT 3***)
+[![blob-sc3.png](https://i.postimg.cc/PxfZgjL2/blob-sc3.png)](https://postimg.cc/R38Nt2LH)
 
 Now that we have our storage account, we need to make a new container. We do this by clicking on storage accounts > your created storage account > containers (on the left bar under Data storage) > + container (right above the container search bar).
 
