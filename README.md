@@ -26,7 +26,7 @@ date	time	time_begin	time_end	logged_food	amount	unit	searched_food	calorie	tota
 
 2/13/2020	18:00:00	2/13/2020 18:00		Berry Smoothie	20	fluid ounce	Strawberry Smoothie	456	85	1.7	83	16	3.3
 
-![An example of how the FoodLog file should be formatted](https://imgur.com/a/Tt1Qjc2)
+[![food-log-example.png](https://i.postimg.cc/bwKmfs8L/food-log-example.png)](https://postimg.cc/bZ9xQYZ2)
 
 This shows the template for how the file should be formatted. If this is made in excel, don't forget to convert to csv before uploading to storage!
 
