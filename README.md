@@ -90,7 +90,9 @@ Following pic shows where to build a new cluster and notebook.
 <img width="1392" alt="image" src="https://github.com/H3OFoxtrot/team8trendsmarket2023/assets/145874767/6e7eea78-0d55-472c-8c84-a1d81dc08454">
 
 
+
 Then we take following steps to generate the features file.
+
 
 Step1: input the storage_account_name, storage_account_key, and container to gain the access to Azure Blob Storage
 
@@ -100,9 +102,13 @@ storage_account_key = "b9CrNE7Gq8QiiqC6YX9c2F09********"
 
 container = "pati*******"
 
+
+
 Step2: Import the packages we need in the process of feature engineering such as StructType,StructField,Window,and pandas
 
 Specific coding could be found in the features_engineering. file.
+
+
 
 Step3: Read data from Azure Blob Storage and start feature engineering.
 
@@ -138,6 +144,7 @@ read ACC file from Azure Blob Storage for patient16 --> build ACC related featur
 ↓
 
 Merge the featurs from patient1 to patient16 into one file, then write it into Azure Blob Storage.
+
 
 
 All the features engineering coding could be found in feature_engineering.ipynb file, and we woule not introduce here again.
