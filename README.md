@@ -75,6 +75,8 @@ It will take some time, but eventually all of the files will upload to the blob 
 
 
 3. Set up and configure Azure Databricks
+   
+
 After the sotrage of data in Azure Blob Storage, we make use of Azure Databricks to generate features feeding the model.
 We should setup Databricks account firstly, and here is the link to databricks https://community.cloud.databricks.com/.
 
