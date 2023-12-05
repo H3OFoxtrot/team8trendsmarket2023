@@ -204,8 +204,9 @@ All the features engineering coding could be found in feature_engineering.ipynb 
 
 Link to flier
 
-Link to video
+Link to presentation video: https://drive.google.com/file/d/1ya4A0UF9IFd0LC3RDSvsmJpH3xSwPfET/view?usp=drive_link
 
 Link to dataset: https://www.physionet.org/content/big-ideas-glycemic-wearable/1.1.2/
 
-Link to Articles/Sources
+Link to Articles/Sources: https://www.nature.com/articles/s41746-021-00465-w#Fig3
+
