@@ -3,7 +3,7 @@ Trends Marketplace 2023 project for team 8: Predicting Interstitial Glucose usin
 
 Note: This project repository is created in partial fulfillment of the requirements for the Big Data Analytics course offered by the Master of Science in Business Analytics program at the Carlson School of Management, University of Minnesota.
 
-##Executive Summary:
+## Executive Summary:
 
 This project represents a fusion of technology and healthcare analytics, driven by the imperative to enhance patient care through data-driven insights. The project centers on the aggregation and analysis of extensive patient data encompassing ACC, BVP, EDA, IBI, TEMP, and HR parameters, securely stored within Azure Blob Storage. 
 
@@ -16,9 +16,9 @@ The resulting visualizations and reports provide healthcare professionals with i
 By harnessing Azure services such as Blob Storage, Databricks, and ML Studio, the initiative addresses the burgeoning need for predictive models in healthcare. The integration of these technological advancements into healthcare workflows embodies a paradigm shift, empowering healthcare professionals with data-derived insights via Power BI's visualizations. These insights are invaluable, facilitating informed strategies and interventions, ultimately culminating in improved patient outcomes and operational efficiencies within the healthcare ecosystem.
 
 
-##Installation Instructions:
+## Installation Instructions:
 
-#1. Collect your data
+### 1. Collect your data
 
 Collecting your data will vary depending on what type of device or devices you are utilizing.
 For this process it is strongly recommended that data only be used from a single type of wearable device (both for glucose sensor and for smartwatch).
@@ -50,7 +50,7 @@ https://www.dexcom.com/en-us/faqs/can-i-export-raw-data
 Once you have all 8 files (ACC, BVP, EDA, IBI, TEMP, HR, FoodLog and Dexcom) for each patient, then you are ready to move on to the next step.
 
 
-#2. Set up and configure Azure Blob Storage
+### 2. Set up and configure Azure Blob Storage
 
 A basic guide on setting up and using Azure Blob Storage can be found here:
 https://learn.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-portal
@@ -85,7 +85,7 @@ Looking inside the new container you shouldn't see anything there. This is where
 It will take some time, but eventually all of the files will upload to the blob storage. A progress notification will appear at the top right of the screen under the notifications (bell) icon if you want to check in later.
 
 
-#3. Set up and configure Azure Databricks
+### 3. Set up and configure Azure Databricks
    
 
 After the sotrage of data in Azure Blob Storage, we make use of Azure Databricks to generate features feeding the model.
@@ -161,7 +161,7 @@ Merge the featurs from patient1 to patient16 into one file, then write it into A
 All the features engineering coding could be found in feature_engineering.ipynb file, and we woule not introduce here again.
 
 
-#4. Set up and configure Azure ML Studio
+### 4. Set up and configure Azure ML Studio
 
    Steps :
    a) Create Azure compute Cluster -
@@ -194,7 +194,7 @@ All the features engineering coding could be found in feature_engineering.ipynb 
 
    
 
-#5. Set up and configure PowerBI
+### 5. Set up and configure PowerBI
    
    First, we need to get data from Azure Blob storage. For that, go to Get Data -> Azure -> Azure Blob Storage
    
