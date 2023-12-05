@@ -197,9 +197,6 @@ All the features engineering coding could be found in feature_engineering.ipynb 
 7. Set up and configure PowerBI
 
 
- 
-8. How to feed unlabeled data into pipeline
-
 
 
 Link to flier
