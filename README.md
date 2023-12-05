@@ -3,7 +3,7 @@ Trends Marketplace 2023 project for team 8: Predicting Interstitial Glucose usin
 
 Note: This project repository is created in partial fulfillment of the requirements for the Big Data Analytics course offered by the Master of Science in Business Analytics program at the Carlson School of Management, University of Minnesota.
 
-Introduction/Executive Summary:
+Executive Summary:
 
 This project represents a fusion of technology and healthcare analytics, driven by the imperative to enhance patient care through data-driven insights. The project centers on the aggregation and analysis of extensive patient data encompassing ACC, BVP, EDA, IBI, TEMP, and HR parameters, securely stored within Azure Blob Storage. 
 
