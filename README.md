@@ -195,6 +195,25 @@ All the features engineering coding could be found in feature_engineering.ipynb 
    
 
 7. Set up and configure PowerBI
+   
+   First, we need to get data from Azure Blob storage. For that, go to Get Data -> Azure -> Azure Blob Storage
+   
+![image](https://github.com/H3OFoxtrot/team8trendsmarket2023/assets/153001888/8e976abe-85c9-4edd-b387-20b5e11cd247)
+
+
+   After selecting the Data Storage Location, we get a prompt to enter our credentials.
+   Then we get the navigator pane to pick and choose the required folder.
+   
+![image](https://github.com/H3OFoxtrot/team8trendsmarket2023/assets/153001888/ac6893b0-767c-4a16-a608-e132efbef2be)
+
+Then, we perform transformation to make our data usable for PowerBi.
+
+![image](https://github.com/H3OFoxtrot/team8trendsmarket2023/assets/153001888/bf1f796d-f5ff-47da-ac55-fb874687ca22)
+
+Then, we built visuals for the Actual and Predicted Glucose readings with respect to days and having Patient ID as a filter which, we can change according to our preference.
+
+   ![image](https://github.com/H3OFoxtrot/team8trendsmarket2023/assets/153001888/3fda5e04-b14a-4b46-a31e-c65e9a25cee9)
+
 
 
 
