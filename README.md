@@ -218,7 +218,7 @@ Then, we built visuals for the Actual and Predicted Glucose readings with respec
 
 
 
-Link to flier
+Link to flier: https://drive.google.com/file/d/1A7NINVl_h_bnpwA7asGg5sthGo5E_-OT/view?usp=drive_link
 
 Link to presentation video: https://drive.google.com/file/d/1ya4A0UF9IFd0LC3RDSvsmJpH3xSwPfET/view?usp=drive_link
 
